@@ -9,7 +9,7 @@ public class Main {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter Age- ");
         int age = sc.nextInt();
-        int year = Year.now().getValue();
-        System.out.println("Birth year is : " + (year-age));
+        int birthyear = Year.now().getValue();
+        System.out.println("Birth year is : " + (birthyear-age));
     }
 }
